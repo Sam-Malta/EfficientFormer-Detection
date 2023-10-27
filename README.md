@@ -13,3 +13,8 @@ EfficientFormer is based on the Vision Transformer (ViT) architecture, which has
 
 ### Solution
 To make Vision Transformers (ViT) faster and more efficient for real-time applications on mobile devices, the authors of the paper introduced a new design paradigm. This involved using a type of transformer that is more consistent in size and doesn't use MobileNet blocks, and then making the models smaller and faster by removing unnecessary parts. 
+
+## Citation
+
+
+Li, Y., Yuan, G., Wen, Y., Hu, J., Evangelidis, G., Tulyakov, S., Wang, Y., & Ren, J. (2022). EfficientFormer: Vision Transformers at MobileNet Speed. arXiv preprint arXiv:2206.01191. [Link](https://doi.org/10.48550/arXiv.2206.01191)
