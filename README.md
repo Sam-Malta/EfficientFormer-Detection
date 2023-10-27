@@ -12,6 +12,4 @@ EfficientFormer is a deep learning model for object detection using the Efficien
 EfficientFormer is based on the Vision Transformer (ViT) architecture, which has shown rapid progress in computer vision tasks. However, ViT-based models are generally slower than lightweight convolutional networks due to their massive number of parameters and attention mechanism. Recent efforts to reduce the computation complexity of ViT through network architecture search or hybrid design with MobileNet block have not been able to achieve satisfactory inference speed.
 
 ### Solution
-To address this challenge, the authors of the paper introduced a dimension-consistent pure transformer (without MobileNet blocks) as a design paradigm and performed latency-driven slimming to get a series of final models dubbed EfficientFormer. Extensive experiments show the superiority of EfficientFormer in performance and speed on mobile devices. 
-
-Overall, EfficientFormer represents a significant advancement in the field of computer vision and has the potential to enable a wide range of real-time applications on mobile devices. 
+To make Vision Transformers (ViT) faster and more efficient for real-time applications on mobile devices, the authors of the paper introduced a new design paradigm. This involved using a type of transformer that is more consistent in size and doesn't use MobileNet blocks, and then making the models smaller and faster by removing unnecessary parts. 
